@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Winer Break HIgh/Low Survery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+form {
+  background-image: url("snowfall.png");
+}
+
+</style>
+<body>
+
+   <h1 style=" font-size: 3em; background-color: #165c7f;" ><strong>Winter Break High/Low</strong></h1>
+       <img src="snoop.png"width = 350 height = 350> 
+       
+<!--Question start-->
+  <h2  style=" font-size: 1em;">Tell us about your winter break!!</h2>
+  
+  <ol>
+    <li>What did you do??? What was good? What could have ben better?</li>
+  </ol>
+  <form action="https://mahvelous-17.github.io/My-repository/Sem%202/WinterBreakResults.HTML" method="get">
+    <!-- Question 1: Rating -->
+    <p>Break rating out of 10?</p>
+    <input type="radio" name="rating" value="1-4">1-4<br>
+    <input type="radio" name="rating" value="5-7">5-7<br>
+    <input type="radio" name="rating" value="8-10">8-10<br>
+
+    <!-- Question 2: Good, dropdown menu -->
+    <p for="rank">Did you see SNOW?!</p>
+    <select id="rank" name="rank">
+      <option value="Yes">Yes</option>
+      <option value="NO">No</option>
+    </select><br><br>
+
+    <!-- Question 3: Text input -->
+    <p for="good">What went good?</p><br>
+    <input type="text" id="good" name="good" placeholder="I slept a lot..."><br><br>
+    <p for="bad">What went bad?</p><br>
+    <input type="text" id="bad" name="bad" placeholder="I didn't get enough sleep. . ."><br><br>
+
+
+    <!-- Question 4: Contact info -->
+    <p for="UserName">Your Name:</p>
+    <input type="text" id="UserName" name="UserName" placeholder="Enter your name"><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+  <!-- Link to snoopyyy -->
+  <p><a href="https://en.wikipedia.org/wiki/Snoopy" target="_blank">SNOOPYYY</a></p>
+</body>
+
+
