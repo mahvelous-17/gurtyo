@@ -8,7 +8,7 @@ h2 {
 }
 
 body {
-  background-color: #1e9ad8;
+  background-color: #259cd8;
   text-align: center;
 }
 
@@ -27,7 +27,13 @@ a {
     color: #ffffff;
     font-weight: bold;
 }
-div {
+.section {
+  background-color: rgb(51, 145, 177);
+  padding: 15px;
+}
 
 
+/* id for the span highlight */
+#highlight {
+  background-color: rgb(187, 61, 61);
 }
