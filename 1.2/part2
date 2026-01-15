@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="part2_master.css">
+    <title>Winter Break Quiz</title>
+  </head>
+  <body>
+
+    <!-- Header -->
+    <div class="header">
+      <h1>Winter Break Quiz</h1>
+      <h3>Test your holiday knowledge!</h3>
+    </div>
+
+    <!-- Main content -->
+    <div class="main">
+      <p>Here is a quick quiz about winter break.</p>
+      <p>Question 1: What was your favorite winter activity? <span id="highlight">Choose your abosloute favorite!</span></p>
+      <textarea placeholder="TELL ME NOW!!!!!!!!!!" rows="5"></textarea>
+    </div>
+
+    <!-- form layout -->
+    <div class="section">
+      <form>
+        <label>Name:</label>
+        <input type="text"><br><br>
+        <label>Answer:</label>
+        <input type="text"><br><br>
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

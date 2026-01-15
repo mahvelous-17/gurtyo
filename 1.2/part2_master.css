@@ -1,0 +1,33 @@
+body {
+  background: lightblue; /* simple background */
+}
+
+/* Classes for divs */
+.header {
+  background: white;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.main {
+  background: rgb(245, 245, 217);
+  border: 2px solid orange;
+  padding: 10px;
+}
+
+.section {
+  background: rgb(192, 111, 111);
+  border: 2px dotted green;
+  padding: 10px;
+}
+
+/* make all paragraph text on page black */
+p {
+  color: black;
+}
+
+/* Span with an ID */
+#highlight {
+  background: red;
+  color: white;
+}
