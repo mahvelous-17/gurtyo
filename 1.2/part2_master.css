@@ -1,5 +1,5 @@
 body {
-  background: lightblue; /* simple background */
+  background: lightblue; 
 }
 
 /* Classes for divs */
@@ -7,17 +7,24 @@ body {
   background: white;
   border: 2px solid black;
   padding: 10px;
+  font-style: italic;
 }
 
 .main {
   background: rgb(245, 245, 217);
-  border: 2px solid orange;
+  border: 2px solid rgb(0, 0, 0);
   padding: 10px;
 }
 
 .section {
   background: rgb(192, 111, 111);
-  border: 2px dotted green;
+  border: 2px dotted rgb(0, 0, 0);
+  padding: 10px;
+}
+
+.footer {
+  background: rgb(255, 255, 255);
+  border: 2px solid black;
   padding: 10px;
 }
 

@@ -30,5 +30,8 @@
         <button>Submit</button>
       </form>
     </div>
+      <div class="footer">
+        <p>Thank you for participating!</p>
+      </div>
   </body>
 </html>
