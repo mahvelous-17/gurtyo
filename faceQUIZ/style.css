@@ -41,17 +41,19 @@ body {
     position: relative;
 }
 
-
+/* 
 .teeth {
     margin-top: 10px;
-}
+} */
 
 .tooth {
     width: 30px;
     height: 30px;
     background-color: white;
     display: inline-block;
-    margin: 5px;
+    margin: 5px;  
+    margin-top: 10px;
+
 }
 
 .tongueslit {
