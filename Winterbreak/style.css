@@ -1,39 +1,52 @@
 h1 {
   color: #8ac8d8;
   font-style: italic;
+  font-size: 3em;
 }
 
 h2 {
   color: #ffffff;
+  font-size: 1.2em;
+  text-align: center;
 }
 
 body {
   background-color: #259cd8;
   text-align: center;
+  font-family: Arial, sans-serif;
 }
 
 form {
   background-color: #ffffff;
   width: 70%;
   text-align: left;
-  margin: 0 auto;
+  margin: 40px auto;
+  padding: 20px;
 }
 
 li {
-    color: white;
-    font-size: 1em;
-}
-a {
-    color: #ffffff;
-    font-weight: bold;
-}
-.section {
-  background-color: rgb(71, 187, 225);
-  padding: 15px;
+  color: white;
+  font-size: 1em;
 }
 
+a {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.section {
+  background-color: rgb(52, 125, 185);
+  padding: 15px;
+  margin: 20px;
+}
 
 /* id for the span highlight */
 #highlight {
   background-color: rgb(187, 61, 61);
+  color: white;
+}
+
+.header {
+  margin: 30px auto;
+  padding: 20px;
 }
