@@ -1,0 +1,9 @@
+.display-1 {
+    text-align: center;
+}
+.carousel-item img {
+  width: 500px;
+  height: 500px;        
+  object-fit:fill;   
+  margin: 0 auto;
+}
