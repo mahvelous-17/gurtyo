@@ -9,7 +9,35 @@
   </head>
 
   <body>
-    <div class="container py-4">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#top">Lost RACOON HELP MEH</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#top">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#carouselExampleCaptions">Photos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+            More
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#formSection">Report Sighting</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="container py-4" id="top">
 
       <h1 class="display-1 text-center text-danger">Lost Raccoon</h1>
       <h3 class="text-center text-secondary mb-4">help me find my raccoon );</h3>
@@ -61,7 +89,7 @@
         <a href="https://www.wikipedia.org" class="btn btn-secondary btn-sm disabled">Still Missing</a>
       </div>
 
-      <form class="border border-2 border-dark p-4 rounded">
+      <form class="border border-2 border-dark p-4 rounded" id="formSection">
         <div class="mb-3">
           <label class="form-label">Your Name</label>
           <input type="text" class="form-control">
